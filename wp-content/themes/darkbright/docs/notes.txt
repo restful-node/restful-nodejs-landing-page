@@ -1,0 +1,9 @@
+https://codex.wordpress.org/Theme_Development
+
+2 different types of hooks
+
+actions
+- when a specific wp event occurs
+
+filters
+- runes the function whenever specific data passes through it
