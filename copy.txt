@@ -1,0 +1,34 @@
+Hey 👋 I'm Yichen Zhu!
+
+I've always found there was a lack of resources when it comes to what the best practices and guidelines are when designing a RESTful API. Not only that, but how to implement and structure a large-scale web API in Node.js.
+
+Over the last few years, I've helped build and maintain dozens of enterprise-grade RESTful web APIs ranging from small startups to large corporate companies. During those years, I’ve observed the good, the bad, and the ugly.
+
+This is what lead me to write this book: A collection of learnings and good practices when building large RESTful web APIs in Node.js at scale.
+
+My goal is to make sure that you are successfully able to create a RESTful API in Node.js that will withstand the test of time by bringing proper guidelines and practices and a structured way of writing code.
+
+----
+
+What's in The Book
+Or view the full table of contents
+
+🗂️ Design RESTful APIs <i>Properly</i>
+There are no official best practices and guidelines to follow when building RESTful API. Every company seems to do it different. You will learn the tips and tricks I have picked up over the many years of research and experience dealing with building RESTful APIs.
+
+⚙️ Structure Node.js Applications
+Ever seen an entire Node.js application written in 1 app.js file? You will learn how to apply the traditional layered approach in structuring your Node.js in order to achieve maximum scalability and maintainability of your code.
+
+🖼️ A Secret 7 Step Blueprint
+GraphQL can offer an absolutely amazing developer experience when done right. Learn about API workflows that work well with GraphQL and must-have tools that will allow you to evolve your API without pain.
+
+🔧 Build a Pragamatic RESTful Web API
+Discover common GraphQL design patterns and when they can be useful. Learn GraphQL as an API Gateway, "schema stitching", distributed GraphQL and a lot more.
+
+🧪 Write Automated Unit and Integration Tests
+Learn tried and true patterns for designing a GraphQL API, and all the principles and techniques I've acquired over the past several years.
+
+🔥 A Lot More
+Learn tried and true patterns for designing a GraphQL API, and all the principles and techniques I've acquired over the past several years.
+
+---

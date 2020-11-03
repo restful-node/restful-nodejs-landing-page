@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="./inter.css">
       <link rel="stylesheet" href="./styles.build.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" href="https://book.productionreadygraphql.com/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="./favicon.ico" type="image/x-icon">
       <!-- Primary Meta Tags -->
       <title>RESTful Node.js: A Structured Approach | The Book</title>
       <meta name="title" content="Production Ready GraphQL">
@@ -100,7 +100,7 @@
                         <a href="https://payhip.com/b/v6AN" class="mt-3 w-full px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-700 focus:outline-none focus:shadow-outline active:bg-gray-900 transition duration-150 ease-in-out sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto" data-product="v6AN">Get Free Chapter</a>
                      </form>
                      <p class="text-base font-medium text-gray-900">
-                        Or <a href="https://book.productionreadygraphql.com/#get-the-book" class="underline-pink">buy now</a> if you're ready!
+                        Or <a href="#get-the-book" class="underline-pink">buy now</a> if you're ready!
                      </p>
                   </div>
                </div>
@@ -134,13 +134,19 @@
                   Hey 👋 I'm <a href="https://www.linkedin.com/in/yichenzhu1337" class="underline-pink">Yichen Zhu</a>!
                </p>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  I've always found there was a lack of resources on how to build reliable GraphQL <strong>servers</strong>. Over the last few years, I helped build and maintain some of the biggest GraphQL APIs out there at both Shopify and GitHub. During those years, I also worked with various companies with their adoption of GraphQL. From my experiences with GraphQL, I’ve observed the good, the bad, and the ugly.
+                  I've always found there was a lack of resources when it comes to what the best practices and guidelines are when designing a RESTful API. Not only that, but how to implement and structure a large-scale web API in Node.js.
+
                </p>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  This led to many <a href="https://www.youtube.com/watch?v=pJamhW2xPYw" class="underline-pink">talks</a> and <a href="https://medium.com/@__xuorig__" class="underline-pink">blog posts</a> on the subject, but still found that teams and individuals willing to use GraphQL in a pragmatic way lacked the resources to do so.
+
+                  Over the last few years, I've helped build and maintain dozens of enterprise-grade RESTful web APIs ranging from small startups to large corporate companies. During those years, I’ve observed the good, the bad, and the ugly.
+
                </p>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  This is what lead me to write this book: <strong>A collection of learnings and good practices when building GraphQL schemas at scale.</strong>
+                  This is what lead me to write this book: <strong>A collection of learnings and good practices when building large RESTful web APIs in Node.js at scale</strong>.
+               </p>
+               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
+                  My goal is to make sure that you are successfully able to create a RESTful API in Node.js that will withstand the test of time by bringing proper guidelines and practices and a structured way of writing code.
                </p>
             </div>
          </div>
@@ -153,43 +159,44 @@
                What's in The
                <span class="text-graphql">Book</span>
             </h2>
-            <h3 class="text-center mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Or <a class="underline-pink" href="https://book.productionreadygraphql.com/toc.html">view the full table of contents</a></h3>
+            <!-- <h3 class="text-center mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Or <a class="underline-pink" href="https://book.productionreadygraphql.com/toc.html">view the full table of contents</a></h3> -->
             <div class="max-w-3xl mx-auto">
                <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                ✨ Design Proper RESTful APIs
+                  🗂️ Design RESTful APIs <u><i>Properly</i></u>
                </h3>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  GraphQL's type system is amazing and we all love it. That doesn't mean it's any easier to design an API which clients will love to use and that will stand the test of time. Learn hard-earned practices around structuring a schema to answer client use cases.
-               </p>
+
+                  There are no official best practices and guidelines to follow when building RESTful API. Every company seems to do it different. You will learn the tips and tricks I have picked up over the many years of research and experience dealing with building RESTful APIs.
+                  </p>
                <h2 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
                 ⚙️ Structure Node.js Applications
                </h2>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Performance is often highlighted as a benefit of GraphQL APIs, but we have to know how to monitor them and how to handle the dynamic nature of GraphQL before we can see these benefits. The book dives deep into monitoring GraphQL execution, techniques to improve performance, and best practices for securing APIs against bad actors.
+                  Ever seen an entire Node.js application written in a single app.js file? You will learn how to apply the traditional layered approach in structuring your Node.js in order to achieve maximum scalability and maintainability of your code.
                </p>
                <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                🖼️ A Secret 7 Step Blueprint
+                🖼️ A Secret "7 (+ 1) Step Blueprint"
                </h3>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  GraphQL can offer an absolutely amazing developer experience when done right. Learn about API workflows that work well with GraphQL and must-have tools that will allow you to evolve your API without pain.
+                  I will show you my secret "7 (+ 1) Step Blueprint" approach that I use every time I build a RESTful API endpoint. This is something that has taken me years to perfect and has gotten me from a junior developer all the way to a senior-level developer at work.
                </p>
                <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                📦 Build a Pragamatic RESTful Web API
+                  🧪 Build a Pragamatic RESTful Web API
                </h3>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Discover common GraphQL design patterns and when they can be useful. Learn GraphQL as an API Gateway, "schema&nbsp;stitching", distributed GraphQL and a lot more.
+                  Learn when to break the rules of being a dogmatic REST freak. I will show you when to follow the rules of REST and when to break them when designing your RESTful web API.
                </p>
                <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                💫 Write Automated Unit and Integration Tests
+                  🧪 Write Automated Unit and Integration Tests
                </h3>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Learn tried and true patterns for designing a GraphQL API, and all the principles and techniques I've acquired over the past several years.
+                  Testing is always an afterthought for most people, what's worse is that most people don't know even what or how to test their RESTful web APIs. I will show you to write rock solid unit and integration tests that will make you sleep better at night.
                </p>
                <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                  🔥 A Lot More
+                  🔥 Real Life Case Study 📕
                </h3>
                <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Learn tried and true patterns for designing a GraphQL API, and all the principles and techniques I've acquired over the past several years.
+                  In the book I build a RESTful web API that I have personally used in one my real life projects. You will see just how practical, applicable, and hands-on this book is!
                </p>
             </div>
          </div>
@@ -218,7 +225,7 @@
                         <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                            <div>
                               <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600">
-                              E-Book + Hard Copy
+                              Hard Copy + E-Book
                               </span>
                            </div>
                            <div class="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
@@ -228,6 +235,7 @@
                               </span>
                            </div>
                         </div>
+
                         <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
                            <ul>
                               <li class="flex items-start">
@@ -237,19 +245,24 @@
                                     </svg>
                                  </div>
                                  <p class="ml-3 text-base leading-6 text-gray-700">
-                                    The <strong>180-page book</strong> in PDF and ePub Format
+                                    The <strong>hard copy</strong> of the book delivered to your doorstep
                                  </p>
                               </li>
+
+
                               <li class="mt-4 flex items-start">
                                  <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                  </div>
+
+
                                  <p class="ml-3 text-base leading-6 text-gray-700">
-                                    The <strong>hard copy</strong> of the book delivered to your doorstep
+                                    The <strong>150-page book</strong> in PDF Format <a href="#get-the-pdf" class="underline-pink">(see how to get the PDF below)</a>
                                  </p>
                               </li>
+
                            </ul>
                            <div class="mt-6 rounded-md shadow">
                               <a id="buyButtonComplete" href="https://www.amazon.ca/Programming-TypeScript-Making-JavaScript-Applications/dp/1492037656?pd_rd_w=TQL4A&pf_rd_p=73a150d5-32c3-4092-8cf9-c500039c85e5&pf_rd_r=X6AAEJA2GTCVQP7T92WP&pd_rd_r=823f1287-f721-4fc9-ad7f-fcad48ff7590&pd_rd_wg=BgLbI" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-400 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
@@ -281,7 +294,7 @@
                                     </svg>
                                  </div>
                                  <p class="ml-3 text-base leading-6 text-gray-700">
-                                    The <strong>180-page book</strong> in PDF and ePub Format
+                                    The <strong>150-page book</strong> in PDF Format
                                  </p>
                               </li>
                            </ul>
@@ -307,51 +320,43 @@
                <dl>
                   <div class="md:grid md:grid-cols-12 md:gap-8">
                      <dt class="text-base leading-6 font-medium text-gray-900 md:col-span-5">
-                        Do I need to be an expert at GraphQL to read the book?
+                        Are there any prerequisites to reading this book?
                      </dt>
                      <dd class="mt-2 md:mt-0 md:col-span-7">
                         <p class="text-base leading-6 text-gray-500">
-                           Not at all. However you'll gain most from this book if you have dabbled with building GraphQL APIs but are ready to take it to the next level!
+                           It is recommended that you have at least an intermediate level of the JavaScript language.
                         </p>
                      </dd>
                   </div>
-                  <!-- <div class="mt-8 border-t border-gray-200 pt-6 md:grid md:grid-cols-12 md:gap-8">
+                  <div id="get-the-pdf" class="mt-8 border-t border-gray-200 pt-6 md:grid md:grid-cols-12 md:gap-8" >
                      <dt class="text-base leading-6 font-medium text-gray-900 md:col-span-5">
-                        Can I see the table of contents?
+                        <u><i><strong>I bought the hard copy, but would like a PDF version as well.</strong></i></u>
                      </dt>
                      <dd class="mt-2 md:mt-0 md:col-span-7">
                         <p class="text-base leading-6 text-gray-500">
-                           Absolutely, <a class="underline-pink" href="https://book.productionreadygraphql.com/toc.html">here it is!</a>
+                           If you bought a hard copy on amazon and would like a PDF version, contact me via email or twitter on the links below if you want an EPUB or MOBI format.
                         </p>
                      </dd>
-                  </div> -->
+                  </div>
+
                   <div class="mt-8 border-t border-gray-200 pt-6 md:grid md:grid-cols-12 md:gap-8">
                      <dt class="text-base leading-6 font-medium text-gray-900 md:col-span-5">
-                        Can I get a physical copy of the book?
+                        What other formats are there besides a PDF?
                      </dt>
                      <dd class="mt-2 md:mt-0 md:col-span-7">
                         <p class="text-base leading-6 text-gray-500">
-                           At the moment, we only offer the digital version, but this may change if there is demand for a physical version as well.
+                           The book is also available in EPUB and MOBI formats. If you have already purchased a book, contact me via email or twitter on the links below if you want an EPUB or MOBI format.
                         </p>
                      </dd>
                   </div>
+
                   <div class="mt-8 border-t border-gray-200 pt-6 md:grid md:grid-cols-12 md:gap-8">
                      <dt class="text-base leading-6 font-medium text-gray-900 md:col-span-5">
                         Can I get a refund?
                      </dt>
                      <dd class="mt-2 md:mt-0 md:col-span-7">
                         <p class="text-base leading-6 text-gray-500">
-                           No worries at all. Message us at <a href="mailto:marc@productionreadygraphql.com">marc@productionreadygraphql.com</a> within 2 weeks of the purchase and we'll refund you, no questions asked.
-                        </p>
-                     </dd>
-                  </div>
-                  <div class="mt-8 border-t border-gray-200 pt-6 md:grid md:grid-cols-12 md:gap-8">
-                     <dt class="text-base leading-6 font-medium text-gray-900 md:col-span-5">
-                        What format are the files?
-                     </dt>
-                     <dd class="mt-2 md:mt-0 md:col-span-7">
-                        <p class="text-base leading-6 text-gray-500">
-                           The book is available in PDF, EPUB and MOBI formats. The extra guides and the interviews are in PDF format. Everything is DRM-Free.
+                           No worries at all. Message us at <a href="mailto:yichenzhu1337@gmail.com">yichenzhu1337@gmail.com</a> within 2 weeks of the purchase and I'll refund you, no questions asked.
                         </p>
                      </dd>
                   </div>
@@ -380,7 +385,7 @@
             </nav>
             <div class="mt-8">
                <p class="text-center text-base leading-6 text-gray-400">
-                  © 2020 hackingthejsinterview.com All rights reserved.
+                  © 2020 <a href="https://www.hackingthejsinterview.com">hackingthejsinterview.com</a> All rights reserved.
                </p>
             </div>
          </div>
