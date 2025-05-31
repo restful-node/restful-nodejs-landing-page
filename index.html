@@ -1,118 +1,175 @@
 <html>
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <link rel="stylesheet" href="./inter.css">
-      <link rel="stylesheet" href="./styles.build.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" href="./favicon.ico" type="image/x-icon">
-      <!-- Primary Meta Tags -->
-      <title>RESTful Node.js: A Structured Approach | The Book</title>
-      <meta name="title" content="RESTful Node.js: A Structured Approach">
-      <meta name="description" content="A book on building scalable, maintainable, and well-structured RESTful Web APIs">
-      <!-- Open Graph / Facebook -->
-      <meta property="og:type" content="website">
-      <meta property="og:url" content="https://www.restfulnode.com">
-      <meta property="og:title" content="RESTful Node.js: A Structured Approach">
-      <meta property="og:description" content="A book on building scalable, maintainable, and well-structured RESTful Web APIs">
-      <meta property="og:image" content="https://www.restfulnode.com/book3.png">
-      <!-- Twitter -->
-      <meta property="twitter:card" content="summary_large_image">
-      <meta property="twitter:url" content="https://www.restfulnode.com">
-      <meta property="twitter:title" content="RESTful Node.js: A Structured Approach">
-      <meta property="twitter:description" content="A book on building scalable, maintainable, and well-structured RESTful Web APIs">
-      <meta property="twitter:image" content="https://www.restfulnode.com/book3.png">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <!-- <script type="text/javascript" async="" src="./analytics.js"></script> -->
-      <script async="" src="./js"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         
-         gtag('config', 'UA-159453494-1');
-         
-         function trackClick(label) {
-           gtag('event', 'shopify_link_click', {
-             'event_label': label,
-           });
-         }
-      </script>
-      <script type="application/ld+json">
-         {
-           "@context":"https://schema.org",
-           "@type":"Book",
-           "name" : "RESTful Node.js: A Structured Approach",
-           "author": {
-             "@type":"Person",
-             "name":"Yichen Zhu"
-           },
-           "image": "https://www.restfulnode.com/book3.png",
-           "url" : "https://www.restfulnode.com",
-           "workExample": [{
-             "@type": "Book",
-             "bookEdition": "1st Edition",
-             "bookFormat": "https://schema.org/eBook",
-             "potentialAction":{
-             "@type":"ReadAction",
-             "target":
-               {
-                 "@type":"EntryPoint",
-                 "urlTemplate":"https://productionreadygraphql.myshopify.com/collections/frontpage/products/production-ready-graphql-the-essentials",
-                 "actionPlatform":[
-                   "http://schema.org/DesktopWebPlatform",
-                   "http://schema.org/IOSPlatform",
-                   "http://schema.org/AndroidPlatform"
-                 ]
-               },
-               "expectsAcceptanceOf":{
-                 "@type":"Offer",
-                 "Price":39.99,
-                 "priceCurrency":"USD",
-                 "availability": "https://schema.org/InStock"
-               }
-             }
-           }]
-         }
-      </script>
-      <script type="text/javascript" src="https://payhip.com/payhip.js?v=24u68984"></script>
-   </head>
-   <body class="vsc-initialized">
-      <div class="relative bg-gray-100 overflow-hidden">
-         <div class="mt-8 mx-auto pb-16 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-               <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-8 lg:text-left lg:mt-16">
-                  <div class="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-                     Available Now
-                  </div>
-                  <h1 class="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
-                     Build RESTful APIs
-                     <br class="hidden md:inline">
-                     <span class="text-graphql">you can rely on</span>
-                  </h1>
-                  <h2 class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                     Learn how to design and build pragmatic RESTful APIs with Node.js at scale.
-                  </h2>
-                  <div class="mt-5 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                     <p class="text-base font-medium text-gray-900">
-                        You can now read the <strong><em><u>online</u></em></strong> version of the entire book for free! 📖
-                     </p>
-                     <form action="https://graphqlschemadesign.us18.list-manage.com/subscribe/post?u=f6aeae7358e58b6830072d07b&amp;id=b5db82944f" method="POST" class="mt-3 sm:flex">
-                        <a href="https://book.restfulnode.com" target="_blank" class="mt-3 w-full px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-700 focus:outline-none focus:shadow-outline active:bg-gray-900 transition duration-150 ease-in-out sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto" data-product="v6AN">Read Now</a>
-                     </form>
-                     <p class="text-base font-medium text-gray-900">
-                        Or <a href="#get-the-book" class="underline-pink">buy the physical copy</a> when you're ready!
-                     </p>
-                  </div>
-               </div>
-               <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
-                  <div class="relative mx-auto w-full lg:max-w-sm">
-                     <img class="w-full" src="./book3.png" alt="Book cover">
-                  </div>
-               </div>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="./inter.css" />
+    <link rel="stylesheet" href="./styles.build.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- Primary Meta Tags -->
+    <title>RESTful Node.js: A Structured Approach | The Book</title>
+    <meta name="title" content="RESTful Node.js: A Structured Approach" />
+    <meta
+      name="description"
+      content="A book on building scalable, maintainable, and well-structured RESTful Web APIs"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.restfulnode.com" />
+    <meta
+      property="og:title"
+      content="RESTful Node.js: A Structured Approach"
+    />
+    <meta
+      property="og:description"
+      content="A book on building scalable, maintainable, and well-structured RESTful Web APIs"
+    />
+    <meta property="og:image" content="https://www.restfulnode.com/book3.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.restfulnode.com" />
+    <meta
+      property="twitter:title"
+      content="RESTful Node.js: A Structured Approach"
+    />
+    <meta
+      property="twitter:description"
+      content="A book on building scalable, maintainable, and well-structured RESTful Web APIs"
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.restfulnode.com/book3.png"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script type="text/javascript" async="" src="./analytics.js"></script> -->
+    <script async="" src="./js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-159453494-1");
+
+      function trackClick(label) {
+        gtag("event", "shopify_link_click", {
+          event_label: label,
+        });
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "RESTful Node.js: A Structured Approach",
+        "author": {
+          "@type": "Person",
+          "name": "Yichen Zhu"
+        },
+        "image": "https://www.restfulnode.com/book3.png",
+        "url": "https://www.restfulnode.com",
+        "workExample": [
+          {
+            "@type": "Book",
+            "bookEdition": "1st Edition",
+            "bookFormat": "https://schema.org/eBook",
+            "potentialAction": {
+              "@type": "ReadAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://productionreadygraphql.myshopify.com/collections/frontpage/products/production-ready-graphql-the-essentials",
+                "actionPlatform": [
+                  "http://schema.org/DesktopWebPlatform",
+                  "http://schema.org/IOSPlatform",
+                  "http://schema.org/AndroidPlatform"
+                ]
+              },
+              "expectsAcceptanceOf": {
+                "@type": "Offer",
+                "Price": 39.99,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          }
+        ]
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://payhip.com/payhip.js?v=24u68984"
+    ></script>
+  </head>
+  <body class="vsc-initialized">
+    <div class="relative bg-gray-100 overflow-hidden">
+      <div
+        class="mt-8 mx-auto pb-16 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24"
+      >
+        <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+          <div
+            class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-8 lg:text-left lg:mt-16"
+          >
+            <div
+              class="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base"
+            >
+              Available Now
             </div>
-         </div>
+            <h1
+              class="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl"
+            >
+              Build RESTful APIs
+              <br class="hidden md:inline" />
+              <span class="text-graphql">you can rely on</span>
+            </h1>
+            <h2
+              class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
+            >
+              Learn how to design and build pragmatic RESTful APIs with Node.js
+              at scale.
+            </h2>
+            <div
+              class="mt-5 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0"
+            >
+              <p class="text-base font-medium text-gray-900">
+                You can now read the
+                <strong
+                  ><em><u>online</u></em></strong
+                >
+                version of the entire book for free! 📖
+              </p>
+              <form
+                action="https://graphqlschemadesign.us18.list-manage.com/subscribe/post?u=f6aeae7358e58b6830072d07b&amp;id=b5db82944f"
+                method="POST"
+                class="mt-3 sm:flex"
+              >
+                <a
+                  href="https://book.restfulnode.com"
+                  target="_blank"
+                  class="mt-3 w-full px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-700 focus:outline-none focus:shadow-outline active:bg-gray-900 transition duration-150 ease-in-out sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                  data-product="v6AN"
+                  >Read Now</a
+                >
+              </form>
+              <p class="text-base font-medium text-gray-900">
+                Or
+                <a href="#get-the-book" class="underline-pink"
+                  >buy the physical copy</a
+                >
+                when you're ready!
+              </p>
+            </div>
+          </div>
+          <div
+            class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center"
+          >
+            <div class="relative mx-auto w-full lg:max-w-sm">
+              <img class="w-full" src="./book3.png" alt="Book cover" />
+            </div>
+          </div>
+        </div>
       </div>
-<!-- 
+    </div>
+    <!-- 
       <style>
          .temp-background {
             height: 500px;
@@ -123,108 +180,185 @@
 
       </div> -->
 
-      <div class="py-16 bg-white overflow-hidden lg:py-16s">
-         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
-            <h2 class="text-center mt-1 text-4xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-5xl">
-                RESTful <span class="text-graphql">Node</span>: A Structured Approach
-               
+    <div class="py-16 bg-white overflow-hidden lg:py-16s">
+      <div
+        class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl"
+      >
+        <h2
+          class="text-center mt-1 text-4xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-5xl"
+        >
+          RESTful <span class="text-graphql">Node</span>: A Structured Approach
+        </h2>
+        <div class="max-w-3xl mx-auto">
+          <p
+            class="text-left max-w-3xl mx-auto mt-12 text-xl leading-7 text-gray-500"
+          >
+            Hey 👋 I'm
+            <a
+              href="https://www.linkedin.com/in/yichenzhu1337"
+              class="underline-pink"
+              >Yichen Zhu</a
+            >!
+          </p>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            I've always found there was a lack of resources when it comes to
+            what the best practices and guidelines are when designing a RESTful
+            API. Not only that, but how to implement and structure a large-scale
+            web API in Node.js.
+          </p>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            Over the last few years, I've helped build and maintain dozens of
+            enterprise-grade RESTful web APIs ranging from small startups to
+            large corporate companies. During those years, I’ve observed the
+            good, the bad, and the ugly.
+          </p>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            This is what lead me to write this book:
+            <strong
+              >A collection of learnings and good practices when building large
+              RESTful web APIs in Node.js at scale</strong
+            >.
+          </p>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            My goal is to make sure that you are successfully able to create a
+            RESTful API in Node.js that will withstand the test of time by
+            bringing proper guidelines and practices and a structured way of
+            writing code.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-16 bg-white overflow-hidden lg:py-16s">
+      <div
+        class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl"
+      >
+        <h2
+          class="text-center mt-1 text-4xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-5xl"
+        >
+          What's in The
+          <span class="text-graphql">Book</span>
+        </h2>
+        <!-- <h3 class="text-center mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Or <a class="underline-pink" href="https://book.productionreadygraphql.com/toc.html">view the full table of contents</a></h3> -->
+        <div class="max-w-3xl mx-auto">
+          <h3
+            class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12"
+          >
+            🗂️ Design RESTful APIs <u><i>Properly</i></u>
+          </h3>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            There are no official best practices and guidelines to follow when
+            building RESTful API. Every company seems to do it different. You
+            will learn the tips and tricks I have picked up over the many years
+            of research and experience dealing with building RESTful APIs.
+          </p>
+          <h2
+            class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12"
+          >
+            ⚙️ Structure Node.js Applications
+          </h2>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            Ever seen an entire Node.js application written in a single app.js
+            file? You will learn how to apply the traditional layered approach
+            in structuring your Node.js in order to achieve maximum scalability
+            and maintainability of your code.
+          </p>
+          <h3
+            class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12"
+          >
+            🖼️ A Secret "7 (+ 1) Step Blueprint"
+          </h3>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            I will show you my secret "7 (+ 1) Step Blueprint" approach that I
+            use every time I build a RESTful API endpoint. This is something
+            that has taken me years to perfect and has gotten me from a junior
+            developer all the way to a senior-level developer at work.
+          </p>
+          <h3
+            class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12"
+          >
+            🧪 Build a Pragamatic RESTful Web API
+          </h3>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            Learn when to break the rules of being a dogmatic REST freak. I will
+            show you when to follow the rules of REST and when to break them
+            when designing your RESTful web API.
+          </p>
+          <h3
+            class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12"
+          >
+            🧪 Write Automated Unit and Integration Tests
+          </h3>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            Testing is always an afterthought for most people, what's worse is
+            that most people don't know even what or how to test their RESTful
+            web APIs. I will show you to write rock solid unit and integration
+            tests that will make you sleep better at night.
+          </p>
+          <h3
+            class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12"
+          >
+            🔥 Real Life Case Study 📕
+          </h3>
+          <p
+            class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500"
+          >
+            In the book I build a RESTful web API that I have personally used in
+            one my real life projects. You will see just how practical,
+            applicable, and hands-on this book is!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gray-800" id="get-the-book">
+      <div class="pt-12 sm:pt-16 lg:pt-24">
+        <div class="max-w-screen-xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto lg:max-w-none">
+            <h2
+              class="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider"
+            >
+              Get RESTful Node: A Structured Approach
             </h2>
-            <div class="max-w-3xl mx-auto">
-               <p class="text-left max-w-3xl mx-auto mt-12 text-xl leading-7 text-gray-500">
-                  Hey 👋 I'm <a href="https://www.linkedin.com/in/yichenzhu1337" class="underline-pink">Yichen Zhu</a>!
-               </p>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  I've always found there was a lack of resources when it comes to what the best practices and guidelines are when designing a RESTful API. Not only that, but how to implement and structure a large-scale web API in Node.js.
-
-               </p>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-
-                  Over the last few years, I've helped build and maintain dozens of enterprise-grade RESTful web APIs ranging from small startups to large corporate companies. During those years, I’ve observed the good, the bad, and the ugly.
-
-               </p>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  This is what lead me to write this book: <strong>A collection of learnings and good practices when building large RESTful web APIs in Node.js at scale</strong>.
-               </p>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  My goal is to make sure that you are successfully able to create a RESTful API in Node.js that will withstand the test of time by bringing proper guidelines and practices and a structured way of writing code.
-               </p>
-            </div>
-         </div>
+            <p
+              class="mt-2 text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none"
+            >
+              Buy the Physical Copy!
+            </p>
+          </div>
+        </div>
       </div>
 
-
-      <div class="py-16 bg-white overflow-hidden lg:py-16s">
-         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
-            <h2 class="text-center mt-1 text-4xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-5xl">
-               What's in The
-               <span class="text-graphql">Book</span>
-            </h2>
-            <!-- <h3 class="text-center mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Or <a class="underline-pink" href="https://book.productionreadygraphql.com/toc.html">view the full table of contents</a></h3> -->
-            <div class="max-w-3xl mx-auto">
-               <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                  🗂️ Design RESTful APIs <u><i>Properly</i></u>
-               </h3>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-
-                  There are no official best practices and guidelines to follow when building RESTful API. Every company seems to do it different. You will learn the tips and tricks I have picked up over the many years of research and experience dealing with building RESTful APIs.
-                  </p>
-               <h2 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                ⚙️ Structure Node.js Applications
-               </h2>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Ever seen an entire Node.js application written in a single app.js file? You will learn how to apply the traditional layered approach in structuring your Node.js in order to achieve maximum scalability and maintainability of your code.
-               </p>
-               <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                🖼️ A Secret "7 (+ 1) Step Blueprint"
-               </h3>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  I will show you my secret "7 (+ 1) Step Blueprint" approach that I use every time I build a RESTful API endpoint. This is something that has taken me years to perfect and has gotten me from a junior developer all the way to a senior-level developer at work.
-               </p>
-               <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                  🧪 Build a Pragamatic RESTful Web API
-               </h3>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Learn when to break the rules of being a dogmatic REST freak. I will show you when to follow the rules of REST and when to break them when designing your RESTful web API.
-               </p>
-               <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                  🧪 Write Automated Unit and Integration Tests
-               </h3>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  Testing is always an afterthought for most people, what's worse is that most people don't know even what or how to test their RESTful web APIs. I will show you to write rock solid unit and integration tests that will make you sleep better at night.
-               </p>
-               <h3 class="mt-1 text-2xl tracking-tight leading-10 font-semibold text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
-                  🔥 Real Life Case Study 📕
-               </h3>
-               <p class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-                  In the book I build a RESTful web API that I have personally used in one my real life projects. You will see just how practical, applicable, and hands-on this book is!
-               </p>
-            </div>
-         </div>
-      </div>
-
-      
-      <div class="bg-gray-800" id="get-the-book">
-         <div class="pt-12 sm:pt-16 lg:pt-24">
-            <div class="max-w-screen-xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-               <div class="max-w-3xl mx-auto lg:max-w-none">
-                  <h2 class="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
-                     Get RESTful Node: A Structured Approach
-                  </h2>
-                  <p class="mt-2 text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-                     Buy the Physical Copy!
-                  </p>
-               </div>
-            </div>
-         </div>
-         
-         <div class="mt-8 pb-12 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-12 sm:mx-auto">
-            <div class="relative">
-               <div class="absolute inset-0 h-1/2 bg-gray-800"></div>
-               <div class="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-                  <div class="max-w-md lg:max-w-5xl lg:items-center lg:flex lg:flex-row-reverse justify-center mx-auto">
-                     
-                     
-<!--                      
+      <div
+        class="mt-8 pb-12 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-12 sm:mx-auto"
+      >
+        <div class="relative">
+          <div class="absolute inset-0 h-1/2 bg-gray-800"></div>
+          <div
+            class="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8"
+          >
+            <div
+              class="max-w-md lg:max-w-5xl lg:items-center lg:flex lg:flex-row-reverse justify-center mx-auto"
+            >
+              <!--                      
                      <div class="bg-white shadow rounded-lg max-w-md lg:min-w-0 lg:w-3/5 relative overflow-hidden">
                         <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                            <div>
@@ -277,23 +411,30 @@
                         
                      </div> -->
 
-
-                     <div class="rounded-lg shadow-lg overflow-hidden lg:w-2/5 lg:rounded-r-none mt-12 lg:mt-0">
-                        <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
-                           <div>
-                              <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600">
-                              Physical Version
-                              </span>
-                           </div>
-                           <div class="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
-                              $19
-                              <span class="ml-1 text-2xl leading-8 font-medium text-gray-500">
-                              USD
-                              </span>
-                           </div>
-                        </div>
-                        <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
-                           <!-- <ul>
+              <div
+                class="rounded-lg shadow-lg overflow-hidden lg:w-2/5 lg:rounded-r-none mt-12 lg:mt-0"
+              >
+                <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                  <div>
+                    <span
+                      class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600"
+                    >
+                      Physical Version
+                    </span>
+                  </div>
+                  <div
+                    class="mt-4 flex items-baseline text-6xl leading-none font-extrabold"
+                  >
+                    $19
+                    <span
+                      class="ml-1 text-2xl leading-8 font-medium text-gray-500"
+                    >
+                      USD
+                    </span>
+                  </div>
+                </div>
+                <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+                  <!-- <ul>
                               <li class="flex items-start">
                                  <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -305,23 +446,26 @@
                                  </p>
                               </li>
                            </ul> -->
-                           <div class="mt-6 rounded-md shadow">
-                              <!-- <a href="https://productionreadygraphql.myshopify.com/cart/32645772804235:1?channel=buy_button" >
+                  <div class="mt-6 rounded-md shadow">
+                    <!-- <a href="https://productionreadygraphql.myshopify.com/cart/32645772804235:1?channel=buy_button" >
                               Buy Now
                               </a> -->
-                              <a href="https://www.amazon.com/" target="_blank" id="buyButtonBook" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-400 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" data-product="d5B7">Coming Soon!</a>
-                           </div>
-                        </div>
-                     </div>
-
-
-
+                    <a
+                      target="_blank"
+                      id="buyButtonBook"
+                      class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-400 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      data-product="d5B7"
+                      >Coming Soon!</a
+                    >
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-<!-- 
+    </div>
+    <!-- 
       <div class="bg-gray-50">
          <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
             <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
@@ -376,36 +520,64 @@
          </div>
       </div>
        -->
-      <div class="bg-white">
-         <div class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-            <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
-               <div class="px-5 py-2">
-                  <a href="https://www.hackingthejsinterview.com" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Blog
-                  </a>
-               </div>
-               <div class="px-5 py-2">
-                  <a href="mailto:yichenzhu1337@gmail.com" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Contact
-                  </a>
-               </div>
-               <div class="px-5 py-2">
-                  <a href="https://twitter.com/yichenzhu1337" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Twitter
-                  </a>
-               </div>
-            </nav>
-            <div class="mt-8">
-               <p class="text-center text-base leading-6 text-gray-400">
-                  Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="https://www.hackingthejsinterview.com">hackingthejsinterview.com</a> All rights reserved.
-               </p>
-            </div>
-         </div>
+    <div class="bg-white">
+      <div
+        class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8"
+      >
+        <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
+          <div class="px-5 py-2">
+            <a
+              href="https://www.codegrind247.com"
+              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+            >
+              Blog
+            </a>
+          </div>
+          <div class="px-5 py-2">
+            <a
+              href="mailto:yichenzhu1337@gmail.com"
+              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+            >
+              Contact
+            </a>
+          </div>
+          <div class="px-5 py-2">
+            <a
+              href="https://twitter.com/yichenzhu1337"
+              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+            >
+              Twitter
+            </a>
+          </div>
+        </nav>
+        <div class="mt-8">
+          <p class="text-center text-base leading-6 text-gray-400">
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <a href="https://www.codegrind247.com">codegrind247.com</a>
+            All rights reserved.
+          </p>
+        </div>
       </div>
-      <script>
-         document.getElementById("buyButtonBook").addEventListener("click", function(e) { trackClick("book") });
-         document.getElementById("buyButtonComplete").addEventListener("click", function() { trackClick("complete") });
-         document.getElementById("buyButtonTeam").addEventListener("click", function() { trackClick("team") });
-      </script>
-   </body>
+    </div>
+    <script>
+      document
+        .getElementById("buyButtonBook")
+        .addEventListener("click", function (e) {
+          trackClick("book");
+        });
+      document
+        .getElementById("buyButtonComplete")
+        .addEventListener("click", function () {
+          trackClick("complete");
+        });
+      document
+        .getElementById("buyButtonTeam")
+        .addEventListener("click", function () {
+          trackClick("team");
+        });
+    </script>
+  </body>
 </html>
